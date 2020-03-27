@@ -117,30 +117,30 @@ sharing:
 
 ## => Comments
 ##############################
-comments:
-  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
-
-  ## Disqus
-  disqus:
-    shortname: # the Disqus shortname for the site
-
-  ## Gitalk
-  # please refer to https://github.com/gitalk/gitalk for more info.
-  #gitalk:
-  #  clientID    : 62964d12c484e80415a9 # GitHub Application Client ID
-  #  clientSecret: 9d9c6eea07b3c1eaad3ec4326608b6dc3544181f # GitHub Application Client Secret
-  #  repository  : blogtalk # GitHub repo
-  #  owner       : jijianming # GitHub repo owner
-  #  admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-  #   - jijianming
-  ## Valine
-  # please refer to https://valine.js.org/en/ for more info.
-  valine:
-    app_id      : # LeanCloud App id
-    app_key     : # LeanCloud App key
-    placeholder : # Prompt information
-    visitor     : # false (default)
-    meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
+#comments:
+#  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+#
+#  ## Disqus
+#  disqus:
+#    shortname: # the Disqus shortname for the site
+#
+#  ## Gitalk
+#  # please refer to https://github.com/gitalk/gitalk for more info.
+#  #gitalk:
+#  #  clientID    : 62964d12c484e80415a9 # GitHub Application Client ID
+#  #  clientSecret: 9d9c6eea07b3c1eaad3ec4326608b6dc3544181f # GitHub Application Client Secret
+#  #  repository  : blogtalk # GitHub repo
+#  #  owner       : jijianming # GitHub repo owner
+#  #  admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+#  #   - jijianming
+#  ## Valine
+#  # please refer to https://valine.js.org/en/ for more info.
+#  valine:
+#    app_id      : # LeanCloud App id
+#    app_key     : # LeanCloud App key
+#    placeholder : # Prompt information
+#    visitor     : # false (default)
+#    meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
 
 
 ## => Pageview
