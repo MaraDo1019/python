@@ -18,9 +18,9 @@
 ##############################
 text_skin: ocean # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : https://www.systeminfo.cc # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://www.gayhub.cc # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Marado's blog
+title   : Jami's blog
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
@@ -35,11 +35,11 @@ timezone: Asia/Chongqing  # see https://en.wikipedia.org/wiki/List_of_tz_databas
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Marado
-  url       : https://www.systeminfo.cc
+  name      : Jami
+  url       : https://www.gayhub.cc
   avatar    : # path or url of avatar image (square)
   bio       : 
-  email     : 1838766990@qq.com
+  email     : 996013797@qq.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -49,13 +49,13 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    https://github.com/MaraDo1019 : # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    https://github.com/jijianming : # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: MaraDo1019/marado1019.gathub.io
+repository: jijianming/jijianming.gathub.io
 repository_tree: master
 
 
@@ -114,16 +114,45 @@ sharing:
   addthis:
     id: # AddThis pubid, e.g. ra-5xxxxxxxxxxx
 
-## => Pageview
-##############################
-pageview:
-  provider: leancloud # false (default), "leancloud", "custom"
 
-  ## Leancloud
-  #leancloud:
-  #  app_id    : 0jLx52QHTAcymu3pXrcV0JNx-gzGzoHsz # LeanCloud App id
-  #  app_key   : mOjjwlaVlMl79so7LscBzR6C # LeanCloud App key
-  #  app_class : jami_blog  # LeanCloud App class
+### => Comments
+###############################
+#comments:
+#  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+#
+#  ## Disqus
+#  disqus:
+#    shortname: # the Disqus shortname for the site
+#
+#  ## Gitalk
+#  # please refer to https://github.com/gitalk/gitalk for more info.
+#  gitalk:
+#    clientID    : 62964d12c484e80415a9 # GitHub Application Client ID
+#    clientSecret: 9d9c6eea07b3c1eaad3ec4326608b6dc3544181f # GitHub Application Client Secret
+#    repository  : blogtalk # GitHub repo
+#    owner       : jijianming # GitHub repo owner
+#    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+#      - jijianming
+#  ## Valine
+#  # please refer to https://valine.js.org/en/ for more info.
+#  valine:
+#    app_id      : # LeanCloud App id
+#    app_key     : # LeanCloud App key
+#    placeholder : # Prompt information
+#    visitor     : # false (default)
+#    meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
+
+
+### => Pageview
+###############################
+#pageview:
+#  provider: leancloud # false (default), "leancloud", "custom"
+#
+#  ## Leancloud
+#  leancloud:
+#    app_id    : 0jLx52QHTAcymu3pXrcV0JNx-gzGzoHsz # LeanCloud App id
+#    app_key   : mOjjwlaVlMl79so7LscBzR6C # LeanCloud App key
+#    app_class : jami_blog  # LeanCloud App class
 
 
 ## => Search
@@ -136,10 +165,15 @@ search:
     custom_search_engine_id: # Google Custom Search Engine ID
 
 
-## => Analytics
-##############################
-analytics:
-  provider: google # false (default), "google", "custom"
+### => Analytics
+###############################
+#analytics:
+#  provider: google # false (default), "google", "custom"
+#
+#  ## Google Analytics
+#  google:
+#    tracking_id : UA-159092427-1  # Google Analytics id for the site
+#    anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
 ## => Build
